@@ -1,5 +1,6 @@
 package zoho;
 
+import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
@@ -7,7 +8,8 @@ import java.util.TreeSet;
 public class withoutDuplication {
     public static void main(String[] args) {
         int num[] = {131,11,48};
-        Set<Integer> distinctSet = new TreeSet<>();
+       // Set<Integer> distinctSet = new TreeSet<>();
+        Set<Integer> distinctSet = new HashSet<>();
         for(int val:num){
             while (val>0) {
                 distinctSet.add(val%10);
