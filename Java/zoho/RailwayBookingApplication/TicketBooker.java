@@ -9,21 +9,21 @@ import java.util.Map;
 import java.util.Queue;
 
 public class TicketBooker {
-    int availableLowerBerths = 1;
-    int availableMiddleBerths = 1;
-    int availableUpperBerths = 1;
-    int availableRacTickets = 1;
-    int availableWaitingList = 1;
+    static int availableLowerBerths = 1;
+    static int availableMiddleBerths = 1;
+    static int availableUpperBerths = 1;
+    static int availableRacTickets = 1;
+    static int availableWaitingList = 1;
 
-    Queue<Integer> racList = new LinkedList<>();
-    Queue<Integer> waitingList = new LinkedList<>();
-    Queue<Integer> bookedTicketList = new LinkedList<>();
+    static Queue<Integer> racList = new LinkedList<>();
+    static Queue<Integer> waitingList = new LinkedList<>();
+    static Queue<Integer> bookedTicketList = new LinkedList<>();
 
-    List<Integer> lowerBerthsPositions = new ArrayList<>(Arrays.asList(availableLowerBerths));
-    List<Integer> middleBerthsPositions = new ArrayList<>(Arrays.asList(availableMiddleBerths));
-    List<Integer> upperBerthsPositions = new ArrayList<>(Arrays.asList(availableUpperBerths));
-    List<Integer> racPositions = new ArrayList<>(Arrays.asList(availableRacTickets));
-    List<Integer> waitingListPositions = new ArrayList<>(Arrays.asList(availableWaitingList));
+    static List<Integer> lowerBerthsPositions = new ArrayList<>(Arrays.asList(availableLowerBerths));
+    static List<Integer> middleBerthsPositions = new ArrayList<>(Arrays.asList(availableMiddleBerths));
+    static List<Integer> upperBerthsPositions = new ArrayList<>(Arrays.asList(availableUpperBerths));
+    static List<Integer> racPositions = new ArrayList<>(Arrays.asList(availableRacTickets));
+    static List<Integer> waitingListPositions = new ArrayList<>(Arrays.asList(availableWaitingList));
 
     static Map<Integer,Passenger> passenger = new HashMap<>();
 

@@ -20,8 +20,19 @@ public class Main {
                     System.out.print("Age: ");
                     int age = sc.nextInt();
                     sc.nextLine();
-                    System.out.print("Birth Preferences: ");
-                    String preference = sc.nextLine();
+                    // System.out.print("Birth Preferences: ");
+                    String preference = "";
+
+                    while (true) {
+                        System.out.print("Birth Preferences (L/M/U): ");
+                        preference = sc.nextLine().trim().toUpperCase();
+
+                        if (preference.equals("L") || preference.equals("M") || preference.equals("U")) {
+                            break;
+                        } else {
+                            System.out.println("Invalid input. Please enter 'L', 'M', or 'U'.");
+                        }
+                    }
 
                     Passenger passenger = new Passenger(name,age, preference);
                     bookTicket(passenger);
@@ -60,14 +71,14 @@ public class Main {
 
      static void bookTicket(Passenger p) {
         TicketBooker booker = new TicketBooker();
-        if(booker.availableWaitingList == 0){
+        if(TicketBooker.availableWaitingList == 0){
             System.out.println("No Tickets available");
             return;
         }
 
-        if((p.berthPref.equals("L") && booker.availableLowerBerths > 0 )||
-            (p.berthPref.equals("M") && booker.availableMiddleBerths > 0) ||
-                (p.berthPref.equals("U") && booker.availableUpperBerths > 0)){
+        if((p.berthPref.equals("L") && TicketBooker.availableLowerBerths > 0 )||
+            (p.berthPref.equals("M") && TicketBooker.availableMiddleBerths > 0) ||
+                (p.berthPref.equals("U") && TicketBooker.availableUpperBerths > 0)){
             
                     System.out.println("Preferred Birth Available");
 
@@ -78,48 +89,48 @@ public class Main {
             }else if(p.berthPref.equals("U")){
                 bookUpperBirth(p, booker);
             }
-        }else if(booker.availableLowerBerths > 0){
+        }else if(TicketBooker.availableLowerBerths > 0){
             bookLowerBirth(p, booker);
-        }else if(booker.availableMiddleBerths > 0){
+        }else if(TicketBooker.availableMiddleBerths > 0){
             bookMiddleBirth(p, booker);
-        }else if(booker.availableUpperBerths > 0){
+        }else if(TicketBooker.availableUpperBerths > 0){
             bookUpperBirth(p, booker);
-        }else if(booker.availableRacTickets >0){
+        }else if(TicketBooker.availableRacTickets >0){
             System.out.println("RAC Given");
-            booker.addToRac(p, booker.racPositions.get(0), "RAC");
-        }else if(booker.availableWaitingList >0){
+            booker.addToRac(p, TicketBooker.racPositions.get(0), "RAC");
+        }else if(TicketBooker.availableWaitingList >0){
             System.out.println("Added to WL");
-            booker.addToWL(p, booker.waitingListPositions.get(0), "WL");
+            booker.addToWL(p, TicketBooker.waitingListPositions.get(0), "WL");
         }
     }
 
     private static void bookUpperBirth(Passenger p, TicketBooker booker) {
         System.out.println("Given Lowe Birth");
-        booker.bookTicket(p,(booker.upperBerthsPositions.get(0)),"U");
+        booker.bookTicket(p,(TicketBooker.upperBerthsPositions.get(0)),"U");
         
-        booker.upperBerthsPositions.remove(0);
-        booker.availableUpperBerths--;
+        TicketBooker.upperBerthsPositions.remove(0);
+        TicketBooker.availableUpperBerths--;
     }
 
     private static void bookMiddleBirth(Passenger p, TicketBooker booker) {
         System.out.println("Given Middle Birth");
-        booker.bookTicket(p,(booker.middleBerthsPositions.get(0)),"M");
+        booker.bookTicket(p,(TicketBooker.middleBerthsPositions.get(0)),"M");
         
-        booker.middleBerthsPositions.remove(0);
-        booker.availableLowerBerths--;
+        TicketBooker.middleBerthsPositions.remove(0);
+        TicketBooker.availableMiddleBerths--;
     }
 
     private static void bookLowerBirth(Passenger p, TicketBooker booker) {
         System.out.println("Given Lower Birth");
-        booker.bookTicket(p,(booker.lowerBerthsPositions.get(0)),"L");
+        booker.bookTicket(p,(TicketBooker.lowerBerthsPositions.get(0)),"L");
         
-        booker.lowerBerthsPositions.remove(0);
-        booker.availableLowerBerths--;
+        TicketBooker.lowerBerthsPositions.remove(0);
+        TicketBooker.availableLowerBerths--;
     }
 
     public static void cancelTicket(int id){
         TicketBooker booker = new TicketBooker();
-        if(!booker.passenger.containsKey(id)){
+        if(!TicketBooker.passenger.containsKey(id)){
             System.out.println("unknown Passenger");
         }else{
             booker.cancelTicket(id);
