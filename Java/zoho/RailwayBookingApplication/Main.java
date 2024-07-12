@@ -80,7 +80,7 @@ public class Main {
             (p.berthPref.equals("M") && TicketBooker.availableMiddleBerths > 0) ||
                 (p.berthPref.equals("U") && TicketBooker.availableUpperBerths > 0)){
             
-                    System.out.println("Preferred Birth Available");
+                System.out.println("Preferred Birth Available");
 
             if(p.berthPref.equals("L")){
                 bookLowerBirth(p, booker);

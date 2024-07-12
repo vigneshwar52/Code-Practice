@@ -30,7 +30,8 @@ public class Booking {
         int totalEarnings = 0;
         int nextFreeTime = 0;
         Taxi bookedTaxiDetail = null;
-        String tripDetail = "";int min;
+        String tripDetail = "";
+        int min;
         
         for(Taxi t:freeTaxis){
             int distanceBetweenTaxiCustomer = Math.abs((t.currentSpot - pickupPoint)) * 15;
