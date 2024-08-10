@@ -1,4 +1,4 @@
-public class Dog implements AnimalBehavior {
+public class Dog extends AnimalBehavior {
     String name;
     int age;
 
