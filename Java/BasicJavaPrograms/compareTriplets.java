@@ -14,14 +14,15 @@ public class compareTriplets {
         }
         for(int i=0;i<size;i++){
             b[i] = in.nextInt();
-        }
+        } 
         for(int i =0;i<size;i++){
             if(a[i]>b[i]){
                 alice++;
             }else if(b[i]>a[i]){
                 bob++;
             }
-        }System.out.println("counts for alice and bob are "+alice +" "+bob);
+        }
+        System.out.println("counts for alice and bob are "+alice +" "+bob);
         in.close();
     }
 }
