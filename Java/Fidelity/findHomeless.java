@@ -73,6 +73,7 @@ public class findHomeless {
             }
         }
         System.out.println(n-count);
+        sc.close();
     }
 }
 

@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class caeserCipherEncryption {
 
     public static String caesarCipher(String s, int k) {
-        // Write your code here
         StringBuilder result = new StringBuilder();
         
         for(int i=0;i<s.length();i++){
@@ -21,7 +20,6 @@ public class caeserCipherEncryption {
             }
         }
         return result.toString();
-    
         }
 
     public static void main(String[] args) {

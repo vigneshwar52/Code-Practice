@@ -16,6 +16,7 @@ public class countTriples {
        for(long item:arr){
         rightMap.put(item,rightMap.getOrDefault(item, 0L));
        }
+
        for(int i=0;i<arr.length;i++){
         long midTerm = arr[i];
         long c1=0,c3=0;
@@ -38,9 +39,11 @@ public class countTriples {
         int size = 10;long r = 3;
         long[] arr = new long[size];
         Scanner in = new Scanner(System.in);
+        
         for(int i=0;i<size;i++){
             arr[i] = in.nextLong();
         }System.out.println("\n");
+        
         for(long val:arr){
             System.out.println(val);
         }
@@ -48,5 +51,9 @@ public class countTriples {
         long finalCount = countTriplets(arr,size,r);
         System.out.println("final count = "+finalCount);
         in.close();
+    }
+    @Override
+    public String toString() {
+        return "countTriples []";
     }
 }
