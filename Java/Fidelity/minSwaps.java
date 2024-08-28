@@ -5,6 +5,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/*
+ * Minimum number of swaps required to sort an array
+Given an array of N distinct elements, find the minimum number of swaps required to sort the array.
+
+Examples: 
+
+Input: {4, 3, 2, 1}
+Output: 2
+Explanation: Swap index 0 with 3 and 1 with 2 to form the sorted array {1, 2, 3, 4}
+
+Input: {1, 5, 4, 3, 2}
+Output: 2
+ */
+
 public class minSwaps {
    public static int minimumSwaps(int[] arr) {
        int n = arr.length;
@@ -38,6 +52,7 @@ public class minSwaps {
        }
     return swaps;
     }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
