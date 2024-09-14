@@ -24,11 +24,11 @@ Output : Currency  Count
 
 
 public class minNoOfNotes {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int amount = sc.nextInt();
         countCurrency(amount);
-  }
+    }
     public static void countCurrency(int amt){
     int noteCounts = 9;
     int notes[] = new int[]{2000,500,200,100,50,20,10,5,1};
@@ -44,6 +44,6 @@ public class minNoOfNotes {
         if(notesCounter[i]!=0){
             System.out.println(notes[i]+" : "+notesCounter[i]);
         }
-    }
+     }
     }
 }
