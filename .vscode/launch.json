@@ -1,0 +1,539 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Singleton",
+            "request": "launch",
+            "mainClass": "DesignPatterns.CreationalDesignPatterns.Singleton",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "Factory",
+            "request": "launch",
+            "mainClass": "DesignPatterns.CreationalDesignPatterns.Factory",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Enumeration",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.Enumeration",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "ImplementsAndInterface",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.ImplementsAndInterface",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "inheritance",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.Interface.inheritance",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "TwoSumUsingHashMap",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.TwoSumUsingHashMap",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "arraySample",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.arraySample",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "bigSum",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.bigSum",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "compareTriplets",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.compareTriplets",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "diagDiffUsingArrayList",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.diagDiffUsingArrayList",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "diagonalDifference",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.diagonalDifference",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "hashMapImplementation",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.hashMapImplementation",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "lamda",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.lamda.lamda",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "minMax",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.minMax",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.palindrome",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "plusMinus",
+            "request": "launch",
+            "mainClass": "BasicJavaPrograms.plusMinus",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "AdapterStructuralDesignPattern",
+            "request": "launch",
+            "mainClass": "DesignPatterns.AdapterStructuralDesignPattern",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "ObserverBehavioralDesignPattern",
+            "request": "launch",
+            "mainClass": "DesignPatterns.ObserverBehavioralDesignPattern",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "SingletonCreationalDesignPattern",
+            "request": "launch",
+            "mainClass": "DesignPatterns.SingletonCreationalDesignPattern",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "SingletonPattern",
+            "request": "launch",
+            "mainClass": "DesignPatterns.SingletonPattern",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "caesarCipherDuplicate",
+            "request": "launch",
+            "mainClass": "Duplicates.caesarCipherDuplicate",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "generalDUp",
+            "request": "launch",
+            "mainClass": "Duplicates.generalDUp",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "DistinctNumbersInSubarray",
+            "request": "launch",
+            "mainClass": "Fidelity.DistinctNumbersInSubarray",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Fidelity.Main",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "RangeCount",
+            "request": "launch",
+            "mainClass": "Fidelity.RangeCount",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "countRange",
+            "request": "launch",
+            "mainClass": "Fidelity.countRange",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "findHomeless",
+            "request": "launch",
+            "mainClass": "Fidelity.findHomeless",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "minNoOfNotes",
+            "request": "launch",
+            "mainClass": "Fidelity.minNoOfNotes",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "minSwaps",
+            "request": "launch",
+            "mainClass": "Fidelity.minSwaps",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "permutations",
+            "request": "launch",
+            "mainClass": "Fidelity.permutations",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "AppInheritance",
+            "request": "launch",
+            "mainClass": "Inheritance.src.AppInheritance",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Interface.src.App",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "LibraryManagementSystem",
+            "request": "launch",
+            "mainClass": "LibraryManagementSystem.src.LibraryManagementSystem",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "ExecutorExample",
+            "request": "launch",
+            "mainClass": "MultiTasking.ExecutorExample",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "ExecutorFutureExample",
+            "request": "launch",
+            "mainClass": "MultiTasking.ExecutorFutureExample",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "ThreadExample$MyThread",
+            "request": "launch",
+            "mainClass": "MultiTasking.ThreadExample$MyThread",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "caeserCipherEncryption",
+            "request": "launch",
+            "mainClass": "ProblemStatements.caeserCipherEncryption",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "commonChild",
+            "request": "launch",
+            "mainClass": "ProblemStatements.commonChild",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "countTriples",
+            "request": "launch",
+            "mainClass": "ProblemStatements.countTriples",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "minDifferenceByMoves",
+            "request": "launch",
+            "mainClass": "ProblemStatements.minDifferenceByMoves",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "minimumAbsoluteDifference",
+            "request": "launch",
+            "mainClass": "ProblemStatements.minimumAbsoluteDifference",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "palindromeIndex",
+            "request": "launch",
+            "mainClass": "ProblemStatements.palindromeIndex",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "removeElement",
+            "request": "launch",
+            "mainClass": "ProblemStatements.removeElement",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "removeOutermostParanthesis",
+            "request": "launch",
+            "mainClass": "ProblemStatements.removeOutermostParanthesis",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "repeatedStrings",
+            "request": "launch",
+            "mainClass": "ProblemStatements.repeatedStrings",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "separateConsequentNumFromString",
+            "request": "launch",
+            "mainClass": "ProblemStatements.separateConsequentNumFromString",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "stackImplementation",
+            "request": "launch",
+            "mainClass": "ProblemStatements.stackImplementation",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "weightedUniformStrings",
+            "request": "launch",
+            "mainClass": "ProblemStatements.weightedUniformStrings",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "AdjacentPairsDifference",
+            "request": "launch",
+            "mainClass": "zoho.AdjacentPairsDifference",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "zoho.RailwayBookingApplication.Main",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "Booking",
+            "request": "launch",
+            "mainClass": "zoho.TaxiBookingApplication.Booking",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "Booking(1)",
+            "request": "launch",
+            "mainClass": "zoho.Taxi_APP_GIT.Booking",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "X",
+            "request": "launch",
+            "mainClass": "zoho.X",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "bin2hex2bin",
+            "request": "launch",
+            "mainClass": "zoho.bin2hex2bin",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "containsDuplicate",
+            "request": "launch",
+            "mainClass": "zoho.containsDuplicate",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "dec2Mixed",
+            "request": "launch",
+            "mainClass": "zoho.dec2Mixed",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "diamondPattern",
+            "request": "launch",
+            "mainClass": "zoho.diamondPattern",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "findDuplicate",
+            "request": "launch",
+            "mainClass": "zoho.findDuplicate",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "findMinDiff",
+            "request": "launch",
+            "mainClass": "zoho.findMinDiff",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "findTargetPresence",
+            "request": "launch",
+            "mainClass": "zoho.findTargetPresence",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "freqLimitedArrayElements",
+            "request": "launch",
+            "mainClass": "zoho.freqLimitedArrayElements",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "indexFirstOccurence",
+            "request": "launch",
+            "mainClass": "zoho.indexFirstOccurence",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "num2bin",
+            "request": "launch",
+            "mainClass": "zoho.num2bin",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "oddEven",
+            "request": "launch",
+            "mainClass": "zoho.oddEven",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "prac",
+            "request": "launch",
+            "mainClass": "zoho.prac",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "primeNumber",
+            "request": "launch",
+            "mainClass": "zoho.primeNumber",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "printNonPalindrome",
+            "request": "launch",
+            "mainClass": "zoho.printNonPalindrome",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "simpleString",
+            "request": "launch",
+            "mainClass": "zoho.simpleString",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "sortByFreq",
+            "request": "launch",
+            "mainClass": "zoho.sortByFreq",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "splitTwoEqualSumArrays",
+            "request": "launch",
+            "mainClass": "zoho.splitTwoEqualSumArrays",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "stringCompression",
+            "request": "launch",
+            "mainClass": "zoho.stringCompression",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "stringExtraction",
+            "request": "launch",
+            "mainClass": "zoho.stringExtraction",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "stringWithoutVowels",
+            "request": "launch",
+            "mainClass": "zoho.stringWithoutVowels",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "subString",
+            "request": "launch",
+            "mainClass": "zoho.subString",
+            "projectName": "Code-Practice_ef45c810"
+        },
+        {
+            "type": "java",
+            "name": "withoutDuplication",
+            "request": "launch",
+            "mainClass": "zoho.withoutDuplication",
+            "projectName": "Code-Practice_ef45c810"
+        }
+    ]
+}

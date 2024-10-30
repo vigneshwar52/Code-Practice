@@ -14,7 +14,6 @@ public class TwoSumUsingHashMap {
 
         int[] result = twoSum(nums, target);
         System.out.println(result[0] + " " + result[1]);
-
     }
 
     public static int[] twoSum(int[] nums, int target) {

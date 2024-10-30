@@ -8,9 +8,9 @@ public class palindrome {
         String str = sc.nextLine();
 
         boolean isPalindrome = isPalindrome(str);
+        System.out.println(isPalindrome == true ?"Entered String is an palindrome":"not an palindrome");
 
         boolean isIntPalindrome = intPalindrome(101);
-        System.out.println(isPalindrome == true ?"Entered String is an palindrome":"not an palindrome");
 
         System.out.println(isIntPalindrome == true ?"Entered Integer is an palindrome":"Int not an palindrome");
         sc.close();

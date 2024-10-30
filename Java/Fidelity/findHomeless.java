@@ -1,6 +1,5 @@
 package Fidelity;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 //Link : https://prepinsta.com/fidelity-coding-questions-and-answers/

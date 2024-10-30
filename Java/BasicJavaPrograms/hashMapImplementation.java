@@ -10,11 +10,12 @@ public class hashMapImplementation {
         usersInfo.put("vicky", "9876543210");
         usersInfo.put("john", "838493992");
 
+        System.out.println();
         //to print all the keys present in hashmap
-        Set<String> keysForUsersInfo =usersInfo.keySet();
-        System.out.println(keysForUsersInfo);
+        Set<String> keysForUsersInfo = usersInfo.keySet();
+        System.out.println("keysForUsersInfo "+keysForUsersInfo);
 
-        System.out.println(usersInfo);
+        System.out.println("usersInfo "+usersInfo);
         System.out.println("contact info for Vicky "+usersInfo.get("vicky"));
     }
 }

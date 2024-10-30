@@ -26,6 +26,7 @@ public class diagDiffUsingArrayList {
             secDiagonalSum = secDiagonalSum + arr.get(i).get(rows-i-1);
         }
         long diff = primaryDiagonalSum - secDiagonalSum;
+        long result = Math.abs(diff);
         System.out.println("primaryDiagonalSum = "+primaryDiagonalSum +"\n"+"secDiagonalSum = "+secDiagonalSum+"\n"+"Diff = "+ diff);
         scanner.close();
     }

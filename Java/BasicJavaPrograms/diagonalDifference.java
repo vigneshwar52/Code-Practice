@@ -18,7 +18,8 @@ public class diagonalDifference {
         for(int i=0;i<index;i++){
             primaryDiagonalSum = primaryDiagonalSum + arr[i][i];
             secDiagonalSum =secDiagonalSum + arr[i][index-i-1];
-        }System.out.println("primaryDiagonalSum and secDiagonalSum are"+"\n"+primaryDiagonalSum+"\n"+secDiagonalSum+"\n");
+        }
+        System.out.println("primaryDiagonalSum and secDiagonalSum are"+"\n"+primaryDiagonalSum+"\n"+secDiagonalSum+"\n");
         long diff = primaryDiagonalSum - secDiagonalSum;
         System.out.println("difference = "+diff);
         in.close();
